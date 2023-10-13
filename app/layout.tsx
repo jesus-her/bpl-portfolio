@@ -25,11 +25,11 @@ export default function RootLayout({
           dark:text-gray-50 dark:text-opacity-100 noise overflow-x-hidden `}
       >
         <div
-          className="bg-[#560bad] absolute top-[0rem] -z-10 right-[0rem] h-[10.25rem]
+          className="bg-[#560bad]/40 absolute top-[0rem] -z-10 right-[0rem] h-[10.25rem]
          w-[10.25rem] rounded-full blur-[2rem] dark:blur-[6rem]  sm:w-[12.75rem] sm:h-[12.75rem] dark:bg-[#560bad]"
         />
         <div
-          className="bg-[#3a0ca3] absolute top-[30rem] -z-10 left-[0rem] h-[12.25rem]
+          className="bg-[#3a0ca3]/50 absolute top-[30rem] -z-10 left-[0rem] h-[12.25rem]
          w-[12.25rem] rounded-full blur-[3rem] dark:blur-[7rem]  sm:w-[16.75rem] sm:h-[16.75rem] dark:bg-[#3a0ca3]"
         />
 

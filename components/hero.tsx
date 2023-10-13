@@ -63,14 +63,14 @@ export default function Hero() {
           {/* <Button
             variant="shadow"
             className="font-bold  absolute -top-0 -left-0  text-7xl md:text-9xl text-black  dark:text-transparent dark:bg-clip-text
-            bg-gradient-to-t from-[#8026C6] via-[#fff] to-[#F20587]"
+            bg-gradient-to-t from-[#8026C6] via-[#3a0ca3] to-[#F20587]"
           >
             *
           </Button> */}
         </div>
         <span
-          className="font-bold  text-right md:text-center text-7xl md:text-9xl text-black  dark:text-transparent dark:bg-clip-text bg-gradient-to-t
-             from-[#8026C6] via-[#fff] to-[#F20587]"
+          className="font-bold  text-right md:text-center text-7xl md:text-9xl text-transparent bg-clip-text bg-gradient-to-t
+             from-[#8026C6] via-[#3a0ca3] to-[#F20587]"
         >
           *
         </span>

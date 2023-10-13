@@ -13,7 +13,7 @@ export default function Footer() {
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
         Framer Motion, Vercel hosting.
       </p>
-      <p className="text-xs opacity-90 text-white mt-2">
+      <p className="text-xs opacity-90 text-black dark:text-white mt-2">
         Created by{" "}
         <Link className="" href="https://jesushn.vercel.app/" target="blank">
           Jesus Hernandez.

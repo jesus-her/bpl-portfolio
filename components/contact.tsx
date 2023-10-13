@@ -34,7 +34,7 @@ export default function Contact() {
     >
       {/* <SectionHeading>{"Contact"}</SectionHeading> */}
 
-      <div className="sm:text-6xl text-4xl  my-16 relative text-white font-bold gap-4 flex flex-col ">
+      <div className="sm:text-6xl text-4xl  my-16 relative  font-bold gap-4 flex flex-col ">
         <p>Let's</p>
         <p>Design</p>
         <p>Something</p>

@@ -25,7 +25,7 @@ export default function Project({ ...project }: any) {
       {/* <Filter1GrainTexture /> */}
       <Filter2DiagonalLines />
 
-      <div className="text-white flex flex-col gap-2 z-10 overflow-hidden relative rounded-lg p-4 ">
+      <div className="flex flex-col gap-2 z-10 overflow-hidden relative rounded-lg p-4 ">
         <h3 className="font-bold text-4xl">{project.title}</h3>
         <Image
           src={project.img}

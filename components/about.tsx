@@ -20,22 +20,16 @@ export default function About() {
     >
       <SectionHeading>About</SectionHeading>
 
-      <div className="flex flex-col text-left text-lg md:text-2xl w-full my-8">
+      <div className="flex flex-col text-left text-lg md:text-xl w-full my-8">
         <span>
           Hi, I’m Britney. My life revolves around two passions: technology and{" "}
-          <span
-            className="font-bold text-black  dark:text-transparent dark:bg-clip-text bg-gradient-to-b
-            from-[#8026C6] via-[#fff] to-[#F20587]"
-          >
-            art.
-          </span>{" "}
-          I’ll fall in love with user interface (UI) and user experience (UX)
-          design thanks to this mix of interests. From a young age, video games,
-          movies and drawing have been part of my life, inspiring me to create
-          captivating digital experiences. I also love animals, especially dogs,
-          cats, rabbits and butterflies. Currently, I live in Tlaxcala, Mexico.
-          My portfolio reflects my passion for technology, art and UI/UX design.
-          Thank you for visiting my personal space!
+          art. I’ll fall in love with user interface (UI) and user experience
+          (UX) design thanks to this mix of interests. From a young age, video
+          games, movies and drawing have been part of my life, inspiring me to
+          create captivating digital experiences. I also love animals,
+          especially dogs, cats, rabbits and butterflies. Currently, I live in
+          Tlaxcala, Mexico. My portfolio reflects my passion for technology, art
+          and UI/UX design. Thank you for visiting my personal space! 💜
         </span>
       </div>
 

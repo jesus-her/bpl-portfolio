@@ -1,5 +1,4 @@
 "use client";
-
 import { NextUIProvider } from "@nextui-org/react";
 import React, { useEffect, useState, createContext, useContext } from "react";
 
@@ -19,17 +18,17 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 export default function ThemeContextProvider({
   children,
 }: ThemeContextProviderProps) {
-  const [theme, setTheme] = useState<Theme>("dark");
+  const [theme, setTheme] = useState<Theme>("dark"); // Inicializa en "dark" por defecto
 
   const toggleTheme = () => {
     if (theme === "light") {
-      setTheme("dark");
+      setTheme("light");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
     } else {
-      setTheme("dark");
+      setTheme("light");
       window.localStorage.setItem("theme", "dark");
-      document.documentElement.classList.remove("light");
+      // document.documentElement.classList.remove("dark");
     }
   };
 
@@ -46,13 +45,19 @@ export default function ThemeContextProvider({
       setTheme("dark");
       document.documentElement.classList.add("dark");
     }
+
+    // Agrega esta condición para forzar "dark" si el tema local del dispositivo es "light"
+    if (window.matchMedia("(prefers-color-scheme: light)").matches) {
+      setTheme("dark");
+      document.documentElement.classList.add("dark");
+    }
   }, []);
 
   return (
     <NextUIProvider>
       <ThemeContext.Provider
         value={{
-          theme: "dark",
+          theme,
           toggleTheme,
         }}
       >

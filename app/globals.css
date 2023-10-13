@@ -30,14 +30,13 @@
 }
 
 html {
-  --line-color: #e5e7eb;
   padding: 0;
+  background: #000000;
 }
 
 html.dark {
-  --line-color: rgba(255, 255, 255, 0.2);
-  background: #000000;
   padding: 0;
+  background: #000000;
 }
 
 /* .noise {
@@ -303,7 +302,7 @@ html.dark .button-spark {
 }
 html.dark .text {
   z-index: 1;
-  color: rgb(255, 255, 255);
+  /* color: rgb(255, 255, 255); */
 }
 
 .c-lesPJm-ifStJuL-css {
