@@ -22,7 +22,7 @@ export default function ThemeContextProvider({
   const [theme, setTheme] = useState<Theme>("dark");
 
   const toggleTheme = () => {
-    if (theme === "dark") {
+    if (theme === "light") {
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
       document.documentElement.classList.add("dark");
