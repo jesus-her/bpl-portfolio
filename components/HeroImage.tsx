@@ -1,9 +1,5 @@
-import { projectsData } from "@/lib/data";
 import Filter1GrainTexture from "./filters/Filter1GrainTexture.tsx";
-import Link from "next/link.js";
 import Image from "next/image.js";
-import Filter2DiagonalLines from "./filters/Filter2DiagonalLines";
-import Filter3Colors from "./filters/Filter3Colors";
 
 import Brit from "@/public/estudihambre.jpg";
 
