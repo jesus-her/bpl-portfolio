@@ -8,17 +8,14 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { experiencesData } from "@/lib/data";
-import { useSectionInView } from "@/lib/hooks";
 import { useTheme } from "@/context/theme-context";
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience");
   const { theme } = useTheme();
 
   return (
     <section
       id="experience"
-      ref={ref}
       className="mb-16  text-center leading-8  scroll-mt-4 "
     >
       <div className="gridLine" />
