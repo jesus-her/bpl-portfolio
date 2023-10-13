@@ -52,7 +52,7 @@ export default function ThemeContextProvider({
     <NextUIProvider>
       <ThemeContext.Provider
         value={{
-          theme,
+          theme: "dark",
           toggleTheme,
         }}
       >
