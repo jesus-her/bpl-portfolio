@@ -16,7 +16,10 @@ export default function Skills() {
 
       <ul className="flex flex-wrap   justify-center my-8  gap-16   ">
         {skillsData.map((skill, index) => (
-          <div className=" flex flex-col items-center justify-center">
+          <div
+            key={index}
+            className=" flex flex-col items-center justify-center"
+          >
             {/* <Skill /> */}
             <div className="w-24 h-24 flex items-center justify-center    relative rounded-2xl break-inside">
               <Image
