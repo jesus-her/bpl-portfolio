@@ -57,7 +57,7 @@ export default function NavBar() {
               </Link>
             </motion.li>
           ))}
-          <ThemeSwitch />
+          {/* <ThemeSwitch /> */}
         </ul>
       </motion.nav>
     </header>
