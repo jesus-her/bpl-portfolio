@@ -29,7 +29,7 @@ export default function ThemeContextProvider({
     } else {
       setTheme("dark");
       window.localStorage.setItem("theme", "dark");
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("light");
     }
   };
 
